@@ -9,5 +9,7 @@ Rails::Initializer.run do |config|
   config.time_zone = 'UTC'
 
   config.gem 'johnson', :version => '2.0.0.pre3'
-  config.gem 'holygrail', :version => '0.5.1.integration' # gem built from integration_test branch
+
+  # Gem built from feature branch: http://github.com/mynyml/holygrail/tree/integration_tests
+  config.gem 'holygrail', :version => '0.5.1.integration'
 end
