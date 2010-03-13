@@ -2,3 +2,65 @@
 
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-03-13 16:39:53) [GET]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-13 16:41:08) [GET]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-13 16:41:57) [GET]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomesController#index (for 127.0.0.1 at 2010-03-13 16:42:42) [GET]
+Rendering homes/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomesController#index (for 127.0.0.1 at 2010-03-13 16:43:09) [GET]
+Rendering homes/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomesController#index (for 127.0.0.1 at 2010-03-13 16:43:21) [GET]
+Rendering homes/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomesController#index (for 127.0.0.1 at 2010-03-13 16:45:07) [GET]
+Rendering homes/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomesController#index (for 127.0.0.1 at 2010-03-13 16:45:55) [GET]
+Rendering homes/index
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomesController#index (for 127.0.0.1 at 2010-03-13 16:51:28) [GET]
+Rendering homes/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomesController#index (for 127.0.0.1 at 2010-03-13 16:53:06) [GET]
+Rendering homes/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomesController#index (for 127.0.0.1 at 2010-03-13 16:53:25) [GET]
+Rendering homes/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomesController#index (for 127.0.0.1 at 2010-03-13 16:53:41) [GET]
+Rendering homes/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/]
