@@ -29,5 +29,5 @@
     And I press "Save changes"
     Then I should see "Whats up, Jason?"
 
-  Scenario: link_to_remote witih POST works
-  Scenario: link_to_remote witih DELETE works
+  Scenario: link_to_remote with POST works
+  Scenario: link_to_remote with DELETE works
