@@ -1,0 +1,9 @@
+<% remote_form_for(:user, :url => users_path, :method => 'POST') do |form| %>
+  <%= form.label(:name) %>
+  <%= form.text_field(:name) %>
+
+  <%= form.submit %>
+<% end %>
+
+<div id="output_area">
+</div>

@@ -22,3 +22,12 @@
       body.appendChild(para);
       """
     Then I should see "Hello from javascript"
+
+  Scenario: AJAX forms submit correctly
+    Given I am on the AJAX form page
+    When I fill in "Name" with "Jason"
+    And I press "Save changes"
+    Then I should see "Whats up, Jason?"
+
+  Scenario: link_to_remote witih POST works
+  Scenario: link_to_remote witih DELETE works
