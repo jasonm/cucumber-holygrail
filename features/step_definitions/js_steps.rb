@@ -1,9 +1,11 @@
 def cucumber_js(code)
   HolyGrail::XhrProxy.context = self
-  @__page ||= Harmony::Page.new(HolyGrail::Assertions::XHR_MOCK_SCRIPT + rewrite_script_paths(@response.body.to_s))
+  @__page ||= Harmony::Page.new(
+    # HolyGrail::Assertions::XHR_MOCK_SCRIPT +
+    rewrite_script_paths(@response.body.to_s))
   @__javascript_result = @__page.execute_js(code)
 
-  page_without_xhr_mock_script = @__page.to_html.gsub(HolyGrail::Assertions::XHR_MOCK_SCRIPT.strip, '')
+  page_without_xhr_mock_script = @__page.to_html #.gsub(HolyGrail::Assertions::XHR_MOCK_SCRIPT.strip, '')
   response.body = page_without_xhr_mock_script
 end
 
