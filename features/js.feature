@@ -27,7 +27,10 @@
     Given I am on the AJAX form page
     When I fill in "Name" with "Jason"
     And I press "Save changes"
-    Then I should see "Whats up, Jason?"
+    # the original form
+    Then I should see "Name" 
+    And I should see "Whats up, Jason?"
+
 
   Scenario: link_to_remote with POST works
   Scenario: link_to_remote with DELETE works
